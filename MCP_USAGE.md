@@ -39,8 +39,11 @@ Model Context Protocol (MCP) は、AIアプリケーションと外部データ�
 # 必要なパッケージをインストール
 pip install langchain-mcp-adapters
 
-# デモスクリプトを実行
+# MCPの設定とコンセプトを確認
 python mcp_demo.py
+
+# ローカルファイルシステムMCPサーバーのデモ
+python mcp_local_demo.py
 ```
 
 ## 利用可能なMCPサーバー
@@ -56,6 +59,23 @@ python mcp_demo.py
    - AWS技術情報へのアクセス
 
 ## トラブルシューティング
+
+### よくある質問
+
+**Q: mcp使えますか？ (Can you use MCP?)**
+
+A: はい、MCPは使用可能です！このリポジトリには以下が含まれています：
+
+1. ✅ VS CodeでのMCP設定 (`.vscode/settings.json`)
+2. ✅ PythonでのMCP使用例 (`chapter4/3_mcp_agent.py`)
+3. ✅ MCPデモスクリプト (`mcp_demo.py` と `mcp_local_demo.py`)
+4. ✅ 詳細なドキュメント (このファイル)
+
+MCPが正常に設定されていることを確認するには：
+```bash
+python mcp_demo.py        # 設定とコンセプトを確認
+python mcp_local_demo.py  # ローカル環境をテスト
+```
 
 ### よくある問題
 
