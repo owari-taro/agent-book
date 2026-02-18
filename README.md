@@ -23,6 +23,14 @@ https://www.sbcr.jp/product/4815636609/
 
 各チャプター名のディレクトリ配下に、書籍内のサンプルコードを格納しています。コードの打ち間違いによるエラーを防ぐためにも、コピペ用にぜひ活用ください。
 
+## 🔌 MCP (Model Context Protocol) の使い方
+
+このリポジトリでは、MCP (Model Context Protocol) を使用したAIエージェント開発の例を提供しています。MCPの詳細な使い方については、[MCP_USAGE.md](./MCP_USAGE.md) をご覧ください。また、簡単なデモンストレーションを実行するには：
+
+```bash
+python mcp_demo.py
+```
+
 
 ## 🆘 エラー等でハンズオンが進められないときは
 
